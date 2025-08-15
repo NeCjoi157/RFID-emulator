@@ -1,5 +1,5 @@
 Установка
-```bash
+bash
 git clone https://github.com/NeCjoi157/RFID-emulator.git
 cd RFID-emulator
 pip install -r requirements.txt
