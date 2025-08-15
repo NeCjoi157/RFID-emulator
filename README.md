@@ -1,4 +1,11 @@
-🚀 Запуск системы
+Установка
+```bash
+git clone https://github.com/NeCjoi157/RFID-emulator.git
+cd RFID-emulator
+pip install -r requirements.txt
+python init_db.py
+
+Запуск системы
 Сервер:
 
 bash
@@ -7,7 +14,7 @@ python server.py
 
 bash
 python rfid_emulator.py
-🌐 Работа с FastAPI
+Работа с FastAPI
 После запуска сервера доступны:
 
 Основные эндпоинты:
